@@ -3,8 +3,7 @@ import os
 
 # Set your API key
 
-openai.api_key = "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"
-
+openai.api_key = os.environ.get('OPENAI_APIKEY')
 # Define your prompt
 while True:
 
